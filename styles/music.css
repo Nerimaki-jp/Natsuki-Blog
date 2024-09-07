@@ -1,0 +1,56 @@
+header{
+    background-color: rgba(0, 0, 0, 0.815);
+    margin-top: 0;
+    padding-top: 3rem;
+}
+.music-grid{
+    margin-top: 13rem;
+    display: grid;
+    grid-template-rows: 30rem 30rem 30rem;
+    gap: 1.5rem;
+}
+
+.music-grid div {
+    background-color: transparent;
+    display: flex;
+    gap: 2rem;
+}
+
+.youtubemusic, .youtubeinfo {
+    display: inline-block;
+    height: 100%;
+    width: 40%;
+}
+.youtubemusic{
+    margin-left: 2rem;
+}
+
+.youtubemusic iframe{
+    transition: 0.4s ;
+}
+.youtubemusic iframe:hover {
+    transform: scale(1.09);
+    margin-left: 1rem;
+}
+.youtubeinfo {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 20px;
+    border-left: 1px solid white;
+}
+
+.youtubeinfotext {
+    font-size: 4rem;
+}
+
+.youtubetitle {
+    display: block;
+}
+
+.youtubedescription {
+    display: block
+}
